@@ -1,0 +1,11 @@
+{
+    "device_list": [
+        {
+			"deviceFullName": "SAMSUNG_Galaxy_Android_11.0.0_fe4a3",
+			"platformVersion": "11.0.0",
+			"automationName": "uiautomator2",
+			"appiumUrl": "https://device.pcloudy.com/appiumcloud/wd/hub",
+			"chromedriverExecutable": ""
+		}
+    ]
+}
