@@ -1,6 +1,6 @@
 # quickium-java
 Java Selenium/Appium quick page object model framework. It supports local and cloud test automation execution.
-Most basic appium and selenuim steering actions are provided out of the box to kick start any automation projects.
+Most basic appium and selenuim steering actions are provided out of the box to kick start any automation mobile and web projects.
 Reports are auto generated powered by extentreports.
 
 
