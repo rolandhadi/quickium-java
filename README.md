@@ -1,5 +1,7 @@
 # quickium-java
 Java Selenium/Appium quick page object model framework. It supports local and cloud test automation execution.
+Most basic appium and selenuim steering actions are provided out of the box to kick start any automation projects.
+Reports are auto generated powered by extentreports.
 
 
 ## quick setup
@@ -104,3 +106,15 @@ project_page = new Project(q);
 project_page.actions_here();
 ```
 ![image](https://user-images.githubusercontent.com/65001113/128495770-fc7f8e58-de6d-4b80-863b-2689f44f17dc.png)
+
+### update the TestRunner.java
+```
+JUnitCore.main("com.project.tests." + test_data.getString("test_name").replace(".java", "").trim());
+```
+![image](https://user-images.githubusercontent.com/65001113/128496058-78e4fdad-fe13-45eb-8c84-34ce163600e7.png)
+
+## running test
+```
+javac \com\quickium\core\TestRunner.java
+java com\quickium\core\TestRunner.java Project
+```
