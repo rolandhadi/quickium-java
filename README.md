@@ -116,5 +116,5 @@ JUnitCore.main("com.project.tests." + test_data.getString("test_name").replace("
 ## running test
 ```
 javac \com\quickium\core\TestRunner.java
-java com\quickium\core\TestRunner.java Project
+java com\quickium\core\TestRunner "Project"
 ```
