@@ -286,7 +286,7 @@ public class Quickium {
 			this.is_mobile = false;
 			this.wdriver = get_available_driver(test_data.getString("browser"));
 			if (this.wdriver == null) {
-				reporter.log("info", "IdealAutomation Version: " + "1.0");
+				reporter.log("info", "ID Automation Version: " + "1.0");
 				reporter.log("fail", "BROWSER: " + this.test_data.getString("browser"));
 				Assert.fail();
 			}
@@ -295,7 +295,7 @@ public class Quickium {
 			this.mdriver = get_available_driver(test_data.getString("platform"),
 					(JSONArray) test_data.get("device_list"), test_data.getBoolean("cloud"));
 			if (this.mdriver == null) {
-				reporter.log("info", "IdealAutomation Version: " + "1.0");
+				reporter.log("info", "ID Automation Version: " + "1.0");
 				reporter.log("fail",
 						"DEVICE: " + this.test_data.getString("deviceFullName") + ":"
 								+ this.test_data.getString("platformVersion") + ":"
